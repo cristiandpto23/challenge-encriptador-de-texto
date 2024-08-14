@@ -2,72 +2,35 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Encriptador</title>
         <!-- CSS -->
-        <link
-            rel="stylesheet"
-            href="./assets/css/style.css"
-        />
+        <link rel="stylesheet" href="./assets/css/style.css" />
         <!-- Google Fonts -->
-        <link
-            rel="preconnect"
-            href="https://fonts.googleapis.com"
-        />
-        <link
-            rel="preconnect"
-            href="https://fonts.gstatic.com"
-            crossorigin
-        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-            rel="stylesheet"
-        />
+            rel="stylesheet" />
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon" />
     </head>
 
     <body>
         <header>
-            <a href="./index.html"
-                ><img
-                    src="./assets/img/logo.png"
-                    alt="logo de alura"
-                    class="logo"
-            /></a>
+            <a href="./index.html"><img src="./assets/img/logo.png" alt="logo de alura" class="logo" /></a>
         </header>
 
         <main>
             <section class="blockOne">
-                <textarea
-                    class="text-area"
-                    cols="30"
-                    rows="10"
-                    placeholder="Ingrese el texto aquí"
-                ></textarea>
+                <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
                 <div class="info-container">
-                    <img
-                        src="./assets/img/bi_exclamation-circle-fill.png"
-                        alt=""
-                    />
-                    <h6 class="informacion">
-                        Solo letras minúsculas y sin acentos
-                    </h6>
+                    <img src="./assets/img/bi_exclamation-circle-fill.png" alt="" />
+                    <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
                 </div>
                 <div class="botones">
-                    <button
-                        onclick="btnEncriptar()"
-                        class="btn-encriptar btn"
-                    >
-                        Encriptar
-                    </button>
-                    <button
-                        onclick="btnDesencriptar()"
-                        class="btn-desencriptar btn"
-                    >
-                        Desencriptar
-                    </button>
+                    <button onclick="btnEncriptar()" class="btn-encriptar btn">Encriptar</button>
+                    <button onclick="btnDesencriptar()" class="btn-desencriptar btn">Desencriptar</button>
                 </div>
             </section>
             <section class="blockTwo">
@@ -78,12 +41,7 @@
                 </div>
                 <p class="mensaje__copiado">Texto copiado</p>
                 <div class="btn-container">
-                    <button
-                        onclick="copiar()"
-                        class="btn btn-copiar"
-                    >
-                        Copiar
-                    </button>
+                    <button onclick="copiar()" class="btn btn-copiar">Copiar</button>
                 </div>
             </section>
         </main>
@@ -91,8 +49,8 @@
         <footer>
             <p>
                 © 2024 - Creado por
-                <a
-                    href="https://github.com/cristiandpto23">cristiandpto23</a>
+                <a href="https://github.com/cristiandpto23">cristiandpto23</a>
+            </p>
         </footer>
 
         <script src="./assets/js/script.js"></script>
