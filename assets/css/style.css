@@ -11,7 +11,7 @@
 }
 
 .logo {
-    margin: 3% 0 0 3%;
+    margin: 2.2% 0 0 3%;
     width: 125px;
 }
 
@@ -30,11 +30,11 @@ main {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 .blockOne {
     width: 60vw;
-    height: 70vh;
+    height: 60vh;
 }
 
 /* BLOCK ONE */
@@ -168,6 +168,20 @@ main {
     min-width: 100%;
 }
 
+/* Footer */
+footer p {
+    text-align: center;
+    font-size: 0.4rem;
+    color: #495057;
+    margin-top: 5px;
+
+    & a {
+        font-size: 0.4rem;
+        color: #0a3871;
+        text-decoration: none;
+    }
+}
+
 @media (max-width: 1280px) {
     main {
         width: 90%;
@@ -210,14 +224,12 @@ main {
     }
     .blockOne textarea {
         min-height: 16px;
-        
+
         min-width: 300px;
-        
     }
     .blockTwo textarea {
         height: auto;
-        
+
         min-width: 300px;
-        
     }
 }
